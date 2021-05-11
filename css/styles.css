@@ -469,6 +469,7 @@ img{
     width: 528px;
     height: 581px;
     background-color: #ffffff;
+    padding: 40px;
 }
 .modal-button{
     position: absolute;
@@ -491,15 +492,12 @@ img{
     line-height: 23px;
     text-align: center;
     color: var(--text-cl);
-    margin-top: 40px;
 }
 textarea{
     resize: none;
 }
 .form{
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .border-form{
     outline: none;
@@ -534,6 +532,7 @@ textarea{
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
+    cursor: pointer;
 }
 .form-svg{
     position: absolute;
@@ -546,6 +545,7 @@ textarea{
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
+    cursor: pointer;
 }
 .window-coment::placeholder{
     font-size: 12px;
@@ -576,6 +576,7 @@ textarea{
     border: 2px solid var(--text-cl);
     border-radius: 2px;
     margin-right: 8.38px;
+    cursor: pointer;
 }
 .checkbox:checked +.checkbox-title::before{
    background-image: url(../images/Chack.svg);
@@ -613,6 +614,7 @@ textarea{
     margin-left: 30px;
 }
 .card-link{
+    display: block;
     transition: box-shadow var(--animation);    
 }
 .card-link:hover,
